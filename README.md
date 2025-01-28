@@ -4,7 +4,7 @@
 This repository contains the fourth assignment for the Machine Learning course. The primary objective of this assignment is to implement a method to remove backgrounds from images using the `rembg` library.
 
 ## Repository Structure
-- `yolov5/`: Contains the script for removing backgrounds from images.
+- `yolov5/`: Contains the script for preprocessing the images for the `YOLOv5` model.
   - `remove_bg.py`: A script that processes images to remove backgrounds.
   - `my_train_test_split`: A script that splits the data into train, validation and test sets. It saves the images accordingly
   - `preprocessing`: The main script of the preprocessing. Runs `remove_bg.py` and `my_train_test_split`.
