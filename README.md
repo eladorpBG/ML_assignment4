@@ -1,7 +1,7 @@
 # ML_assignment4
 
 ## Overview
-This repository contains the fourth assignment for the Machine Learning course. The primary objective of this assignment is to implement a method to remove backgrounds from images using the `rembg` library.
+This repository contains the fourth assignment for the Machine Learning course.
 
 ## Repository Structure
 - `yolov5/`: Contains the script for preprocessing the images for the `YOLOv5` model.
