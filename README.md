@@ -4,7 +4,7 @@
 This repository contains the fourth assignment for the Machine Learning course.
 
 ## Repository Structure
-- `yolov5/`: Contains the script for preprocessing the images for the `YOLOv5` model.
+- `yolov5/`: Contains the scripts for the `YOLOv5` model, including preprocessing, training and evaluation.
   - `best.pt`: The trained YOLOv5 model weights.
   - `my_train_test_split`: A script that splits the data into train, validation and test sets. It saves the images accordingly.
   - `plots.ipynb`: Jupyter Notebook for generating and displaying various plots related to the model's performance and architecture.
