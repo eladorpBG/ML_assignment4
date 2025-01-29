@@ -4,7 +4,7 @@ from PIL import Image
 import os
 from scipy.io import loadmat
 from tqdm import tqdm
-from params import test_size, valid_size, random_state, labels_mat, image_dir, dataset_dir
+from params import test_size, valid_size, random_state, labels_mat, image_dir, dataset_dir, test_dir
 
 # Function to save images to respective directories
 def save_images(images, labels, directory):
@@ -47,8 +47,7 @@ X_train, X_valid, y_train, y_valid = train_test_split(
 
 # Create directories for train, valid, and test sets
 train_dir = os.path.join(dataset_dir, 'train')
-valid_dir = os.path.join(dataset_dir, 'valid')
-test_dir = os.path.join(dataset_dir, 'test')
+valid_dir = os.path.join(dataset_dir, 'val')
 
 os.makedirs(train_dir, exist_ok=True)
 os.makedirs(valid_dir, exist_ok=True)
