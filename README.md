@@ -14,7 +14,7 @@ GitHub Repository: [https://github.com/eladorpBG/ML_assignment4.git](https://git
   - `preprocessing.py`: The main script of the preprocessing. Runs `remove_bg.py` and `my_train_test_split`.
   ### Training and Testing
   - `train.py`: A modified version of yolov5/classify/train.py. The modification includes logging the accuracy of the train set for each epoch in the results.csv.
-  - `val.py`: A modified version of yolov5/classify/val.py. The modification includes calculating the calculating the test set loss.
+  - `val.py`: A modified version of yolov5/classify/val.py. The modification includes calculating the test set loss.
   - `train.sh`: Shell script for training the model.
   - `test.sh`: Shell script for running the model on a test set.
   ### Evaluation
