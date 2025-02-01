@@ -8,7 +8,7 @@ GitHub Repository: [https://github.com/eladorpBG/ML_assignment3.git](https://git
 ## Repository Structure
 - `yolov5/`: Contains the scripts for the `YOLOv5` model, including preprocessing, training and evaluation.
   ### Preprocessing
-  - `remove_bg.py`: A script that processes images to remove backgrounds.
+  - `remove_bg.py`: A script that processes images to remove backgrounds using the [rembg](https://github.com/danielgatis/rembg.git) tool.
   - `my_train_test_split`: A script that splits the data into train, validation and test sets. It saves the images accordingly.
   - `params.py`: Contains parameters such as the directory of images to be processed.
   - `preprocessing`: The main script of the preprocessing. Runs `remove_bg.py` and `my_train_test_split`.
