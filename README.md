@@ -19,3 +19,6 @@ This repository contains the fourth assignment for the Machine Learning course.
   - `best.pt`: The trained YOLOv5 model weights.
   - `plots.ipynb`: Jupyter Notebook for generating and displaying various plots related to the model's performance and architecture.
   - `results.csv`: Contains the train and validation results of fine-tuning the model using `the 102 Category Flower` dataset.
+ 
+- `vgg19/`: Contains the scripts for the `VGG19` model, including preprocessing, training and evaluation.
+  - `Flowers_VGG19.ipynb`: This script contains all of the preprocessing, training and evaluation.
