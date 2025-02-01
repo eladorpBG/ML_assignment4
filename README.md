@@ -13,8 +13,8 @@ GitHub Repository: [https://github.com/eladorpBG/ML_assignment4.git](https://git
   - `params.py`: Contains parameters such as the directory of images to be processed.
   - `preprocessing`: The main script of the preprocessing. Runs `remove_bg.py` and `my_train_test_split`.
   ### Training and Testing
-  - `train.py`: A modifyied version of yolov5/classify/train.py. The modification includes logging the accuracy of the train set for each epoch in the results.csv.
-  - `val.py`: A modifyied version of yolov5/classify/val.py. The modification includes calculating the loss of the test set.
+  - `train.py`: A modified version of yolov5/classify/train.py. The modification includes logging the accuracy of the train set for each epoch in the results.csv.
+  - `val.py`: A modifyied version of yolov5/classify/val.py. The modification includes calculating the calculating the test set loss.
   - `train.sh`: Shell script for training the model.
   - `test.sh`: Shell script for running the model on a test set.
   ### Evaluation
@@ -23,4 +23,4 @@ GitHub Repository: [https://github.com/eladorpBG/ML_assignment4.git](https://git
   - `results.csv`: Contains the train and validation results of fine-tuning the model using `the 102 Category Flower` dataset.
  
 - `vgg19/`: Contains the scripts for the `VGG19` model, including preprocessing, training and evaluation.
-  - `Flowers_VGG19.ipynb`: This script contains all of the preprocessing, training and evaluation.
+  - `Flowers_VGG19.ipynb`: This notebook contains all of the preprocessing, training and evaluation.
